@@ -1,5 +1,5 @@
 {
-  "name": "@lwfjyjy/session-show-load",
+  "name": "@lwfjyjy/dsh-session-show-load",
   "version": "0.10.6",
   "description": "在当前对话顶部新增「加载」tab，展示本次对话注入给模型的系统提示词、指令文件、技能、工具与环境快照，并支持逐块 AI 翻译。",
   "type": "module",

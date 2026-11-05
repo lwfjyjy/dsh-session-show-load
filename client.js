@@ -5,7 +5,7 @@
 //   2) 若接口不可用，则退回当前对话快照（useChat + useTrajectory）尽力展示，可能不全；
 //   3) 各文本块可点「翻译」，由宿主 POST /session-show-load/translate 调用 AI 翻译。
 window.__ModuleLoader__.load({
-  id: '@lwfjyjy/session-show-load',
+  id: '@lwfjyjy/dsh-session-show-load',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
