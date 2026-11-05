@@ -1,0 +1,3 @@
+- insert:
+    - id: session-show-load
+      name: '@lwfjyjy/session-show-load'
