@@ -24,14 +24,14 @@
 - 这次翻译是独立请求，**不会写进当前对话、也不会污染上下文**；只有你点的那块文字会被发送。
 - 会消耗模型的 Token（按钮旁会标注「由 AI 翻译，可能需要几秒」）。
 - 长文本会自动分段翻译再拼接，避免超出单次输出上限。
-- **每份译文都会自动保存**，面板左侧会多出「翻译记录」：桌面客户端存本机 `~/.dsh/profiles/<profile>/.dsh-session-show-load/translations.json`（最多 50 份，关掉再开还在），纯浏览器存浏览器本地（最多 10 份）。
+- **每份译文都会自动保存**，顶部会多出「N 项 翻译记录」入口：桌面客户端存本机 `~/.dsh/profiles/<profile>/.dsh-session-show-load/translations.json`（最多 50 份，关掉再开还在），纯浏览器存浏览器本地（最多 10 份）。
 
 ## 安装
 
-本插件是标准 DSH bundle（`dsh.manifestVersion = 1`），在工作区用 DSH 的插件安装器指向本目录即可：
+本插件是标准 DSH bundle（`dsh.manifestVersion = 1`），可直接从 GitHub 安装：
 
 ```
-plugin_manager install_bundle(target = "<本目录绝对路径>")
+plugin_manager install_bundle(target = "github:lwfjyjy/dsh-session-show-load")
 ```
 
 安装后在任意对话顶部就会出现「加载」tab（order = 20，位于「轨迹」与「上下文」之间）。
